@@ -63,7 +63,9 @@ class NextQuestionSuggestion:
     def _extract_questions(cls, text: str) -> List[str]:
         content_match = re.search(r"```(.*?)```", text, re.DOTALL)
         content = content_match.group(1) if content_match else ""
-        return content.strip().split("\n")
+        questions = content.strip().split("\n")
+        # Remove angle brackets from questions
+        return [re.sub(r'[<>]', '', question).strip() for question in questions]
 
     @classmethod
     async def suggest_next_questions(

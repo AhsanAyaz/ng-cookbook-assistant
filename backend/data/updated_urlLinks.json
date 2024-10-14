@@ -1,0 +1,618 @@
+[
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Component communication using component @Input and @Output properties",
+    "appPath": "chapter01/cc-inputs-outputs/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/cc-inputs-outputs/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/cc-inputs-outputs"
+  },
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Component communication using services",
+    "appPath": "chapter01/cc-services/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/cc-services/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/cc-services"
+  },
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Using ngOnChanges to intercept input property changes",
+    "appPath": "chapter01/cc-ng-on-changes/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/cc-ng-on-changes/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/cc-ng-on-changes"
+  },
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Using setters for intercepting input property changes",
+    "appPath": "chapter01/cc-setters/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/cc-setters/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/cc-setters"
+  },
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Accessing a child component in a parent template via template variables",
+    "appPath": "chapter01/cc-template-vars/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/cc-template-vars/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/cc-template-vars"
+  },
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Accessing a child component in a parent component class using ViewChild",
+    "appPath": "chapter01/cc-view-child/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/cc-view-child/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/cc-view-child"
+  },
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Standalone components and passing data through route params",
+    "appPath": "chapter01/cc-standalone-components/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/cc-standalone-components/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/cc-standalone-components"
+  },
+  {
+    "chapter": "Winning Component Communication",
+    "appTitle": "Component communication using signals",
+    "appPath": "chapter01/ng-cc-signals/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter01/ng-cc-signals/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter01/ng-cc-signals"
+  },
+  {
+    "chapter": "Working with Angular Directives and Built-In Control Flow",
+    "appTitle": "Using attribute directives to handle the appearance of elements",
+    "appPath": "chapter02/ng-attribute-directive/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter02/ng-attribute-directive/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter02/ng-attribute-directive"
+  },
+  {
+    "chapter": "Working with Angular Directives and Built-In Control Flow",
+    "appTitle": "Creating a directive to calculate the read time for articles",
+    "appPath": "chapter02/ng-read-time-directive/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter02/ng-read-time-directive/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter02/ng-read-time-directive"
+  },
+  {
+    "chapter": "Working with Angular Directives and Built-In Control Flow",
+    "appTitle": "Creating a directive that allows you to vertically scroll to an element",
+    "appPath": "chapter02/ng-scroll-to-directive/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter02/ng-scroll-to-directive/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter02/ng-scroll-to-directive"
+  },
+  {
+    "chapter": "Working with Angular Directives and Built-In Control Flow",
+    "appTitle": "Writing your first custom structural directive",
+    "appPath": "chapter02/ng-show-for-directive/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter02/ng-show-for-directive/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter02/ng-show-for-directive"
+  },
+  {
+    "chapter": "Working with Angular Directives and Built-In Control Flow",
+    "appTitle": "How to apply multiple structural directives to the same element",
+    "appPath": "chapter02/ng-multi-struc-directives/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter02/ng-multi-struc-directives/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter02/ng-multi-struc-directives"
+  },
+  {
+    "chapter": "Working with Angular Directives and Built-In Control Flow",
+    "appTitle": "Applying multiple directives to the same element using the Directive Composition API",
+    "appPath": "chapter02/ng-directive-comp-api/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter02/ng-directive-comp-api/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter02/ng-directive-comp-api"
+  },
+  {
+    "chapter": "The Magic of Dependency Injection in Angular",
+    "appTitle": "Using Angular DI tokens",
+    "appPath": "chapter03/ng-di-token/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter03/ng-di-token/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter03/ng-di-token"
+  },
+  {
+    "chapter": "The Magic of Dependency Injection in Angular",
+    "appTitle": "Optional dependencies",
+    "appPath": "chapter03/ng-optional-dependencies/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter03/ng-optional-dependencies/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter03/ng-optional-dependencies"
+  },
+  {
+    "chapter": "The Magic of Dependency Injection in Angular",
+    "appTitle": "Creating a singleton service using providedIn",
+    "appPath": "chapter03/ng-singleton-service/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter03/ng-singleton-service/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter03/ng-singleton-service"
+  },
+  {
+    "chapter": "The Magic of Dependency Injection in Angular",
+    "appTitle": "Creating a singleton service using forRoot()",
+    "appPath": "chapter03/ng-singleton-service-forroot/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter03/ng-singleton-service-forroot/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter03/ng-singleton-service-forroot"
+  },
+  {
+    "chapter": "The Magic of Dependency Injection in Angular",
+    "appTitle": "Providing alternate classes against same DI Token",
+    "appPath": "chapter03/ng-aliased-class-providers/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter03/ng-aliased-class-providers/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter03/ng-aliased-class-providers"
+  },
+  {
+    "chapter": "The Magic of Dependency Injection in Angular",
+    "appTitle": "Dynamic configurations using value providers",
+    "appPath": "chapter03/ng-value-providers/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter03/ng-value-providers/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter03/ng-value-providers"
+  },
+  {
+    "chapter": "Understanding Angular Animations",
+    "appTitle": "Creating your first two-state Angular animation",
+    "appPath": "chapter04/ng-basic-animation/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter04/ng-basic-animation/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter04/ng-basic-animation"
+  },
+  {
+    "chapter": "Understanding Angular Animations",
+    "appTitle": "Working with multi-state animations",
+    "appPath": "chapter04/ng-multi-state-animations/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter04/ng-multi-state-animations/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter04/ng-multi-state-animations"
+  },
+  {
+    "chapter": "Understanding Angular Animations",
+    "appTitle": "Creating complex Angular animations using keyframes",
+    "appPath": "chapter04/ng-animations-keyframes/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter04/ng-animations-keyframes/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter04/ng-animations-keyframes"
+  },
+  {
+    "chapter": "Understanding Angular Animations",
+    "appTitle": "Animating lists in Angular using stagger animations",
+    "appPath": "chapter04/ng-animating-lists/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter04/ng-animating-lists/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter04/ng-animating-lists"
+  },
+  {
+    "chapter": "Understanding Angular Animations",
+    "appTitle": "Sequential vs parallel animations in Angular",
+    "appPath": "chapter04/ng-seq-parallel-animations/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter04/ng-seq-parallel-animations/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter04/ng-seq-parallel-animations"
+  },
+  {
+    "chapter": "Understanding Angular Animations",
+    "appTitle": "Route animations in Angular",
+    "appPath": "chapter04/ng-route-animations/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter04/ng-route-animations/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter04/ng-route-animations"
+  },
+  {
+    "chapter": "Understanding Angular Animations",
+    "appTitle": "Disabling Angular animations conditionally",
+    "appPath": "chapter04/ng-disable-animations/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter04/ng-disable-animations/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter04/ng-disable-animations"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Sequential and parallel http calls in Angular with RxJS",
+    "appPath": "chapter05/rx-seq-parallel-http/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/rx-seq-parallel-http/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/rx-seq-parallel-http"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Listening to multiple observable streams",
+    "appPath": "chapter05/rx-multiple-streams/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/rx-multiple-streams/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/rx-multiple-streams"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Unsubscribing streams to avoid memory leaks",
+    "appPath": "chapter05/rx-unsubscribing-streams/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/rx-unsubscribing-streams/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/rx-unsubscribing-streams"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Using Angular's async pipe to unsubscribe streams automatically",
+    "appPath": "chapter05/ng-async-pipe/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/ng-async-pipe/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/ng-async-pipe"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Using the map operator to transform data",
+    "appPath": "chapter05/rx-map-operator/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/rx-map-operator/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/rx-map-operator"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Using the switchMap and debounceTime operators with autocompletes for better performance",
+    "appPath": "chapter05/rx-switchmap-operator/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/rx-switchmap-operator/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/rx-switchmap-operator"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Creating a custom RxJS operator",
+    "appPath": "chapter05/rx-custom-operator/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/rx-custom-operator/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/rx-custom-operator"
+  },
+  {
+    "chapter": "Angular and RxJS - Awesomeness Combined",
+    "appTitle": "Retrying failed HTTP calls with RxJS",
+    "appPath": "chapter05/rx-retry-http-calls/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter05/rx-retry-http-calls/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter05/rx-retry-http-calls"
+  },
+  {
+    "chapter": "Reactive State Management with NgRx",
+    "appTitle": "Creating your first NgRx store with actions and reducers",
+    "appPath": "chapter06/ngrx-actions-reducer/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter06/ngrx-actions-reducer/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter06/ngrx-actions-reducer"
+  },
+  {
+    "chapter": "Reactive State Management with NgRx",
+    "appTitle": "Using NgRx Store Devtools to debug state changes",
+    "appPath": "chapter06/ngrx-devtools/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter06/ngrx-devtools/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter06/ngrx-devtools"
+  },
+  {
+    "chapter": "Reactive State Management with NgRx",
+    "appTitle": "Using NgRx selectors to select and render state in components",
+    "appPath": "chapter06/ngrx-selectors/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter06/ngrx-selectors/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter06/ngrx-selectors"
+  },
+  {
+    "chapter": "Reactive State Management with NgRx",
+    "appTitle": "Using NgRx effects to fetch data from API calls",
+    "appPath": "chapter06/ngrx-effects/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter06/ngrx-effects/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter06/ngrx-effects"
+  },
+  {
+    "chapter": "Reactive State Management with NgRx",
+    "appTitle": "Using NgRx Component Store to manage the state of a component",
+    "appPath": "chapter06/ngrx-component-store/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter06/ngrx-component-store/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter06/ngrx-component-store"
+  },
+  {
+    "chapter": "Understanding Angular Navigation and Routing",
+    "appTitle": "Creating routes in an Angular (standalone) app",
+    "appPath": "chapter07/ng-basic-routing/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter07/ng-basic-routing/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter07/ng-basic-routing"
+  },
+  {
+    "chapter": "Understanding Angular Navigation and Routing",
+    "appTitle": "Lazily loaded routes in Angular",
+    "appPath": "chapter07/ng-lazy-routing/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter07/ng-lazy-routing/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter07/ng-lazy-routing"
+  },
+  {
+    "chapter": "Understanding Angular Navigation and Routing",
+    "appTitle": "Preloading route strategies",
+    "appPath": "chapter07/ng-route-preload-strat/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter07/ng-route-preload-strat/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter07/ng-route-preload-strat"
+  },
+  {
+    "chapter": "Understanding Angular Navigation and Routing",
+    "appTitle": "Authorized access to routes using route guards",
+    "appPath": "chapter07/ng-route-guards/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter07/ng-route-guards/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter07/ng-route-guards"
+  },
+  {
+    "chapter": "Understanding Angular Navigation and Routing",
+    "appTitle": "Working with route parameters",
+    "appPath": "chapter07/ng-route-params/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter07/ng-route-params/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter07/ng-route-params"
+  },
+  {
+    "chapter": "Understanding Angular Navigation and Routing",
+    "appTitle": "Showing a global loader between route changes",
+    "appPath": "chapter07/ng-global-loader/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter07/ng-global-loader/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter07/ng-global-loader"
+  },
+  {
+    "chapter": "Mastering Angular Forms",
+    "appTitle": "Creating your first template-driven form with validation",
+    "appPath": "chapter08/ng-tdf/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter08/ng-tdf/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter08/ng-tdf"
+  },
+  {
+    "chapter": "Mastering Angular Forms",
+    "appTitle": "Creating your first reactive form with validation",
+    "appPath": "chapter08/ng-reactive-forms/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter08/ng-reactive-forms/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter08/ng-reactive-forms"
+  },
+  {
+    "chapter": "Mastering Angular Forms",
+    "appTitle": "Testing forms in Angular",
+    "appPath": "chapter08/ng-testing-forms/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter08/ng-testing-forms/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter08/ng-testing-forms"
+  },
+  {
+    "chapter": "Mastering Angular Forms",
+    "appTitle": "Server-side validation using asynchronous validator functions",
+    "appPath": "chapter08/ng-rf-async-validator/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter08/ng-rf-async-validator/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter08/ng-rf-async-validator"
+  },
+  {
+    "chapter": "Mastering Angular Forms",
+    "appTitle": "Implementing complex forms with reactive FormArray",
+    "appPath": "chapter08/ng-form-arrays/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter08/ng-form-arrays/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter08/ng-form-arrays"
+  },
+  {
+    "chapter": "Mastering Angular Forms",
+    "appTitle": "Writing your own custom form control using ControlValueAccessor",
+    "appPath": "chapter08/ng-form-cva/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter08/ng-form-cva/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter08/ng-form-cva"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Using virtual scroll for huge lists",
+    "appPath": "chapter09/ng-cdk-virtual-scroll/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-virtual-scroll/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-virtual-scroll"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Keyboard navigation for lists",
+    "appPath": "chapter09/ng-cdk-lkm/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-lkm/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-lkm"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Pointy little popovers with the Overlay API",
+    "appPath": "chapter09/ng-cdk-popover/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-popover/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-popover"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Input coercion utilities from the Angular CDK",
+    "appPath": "chapter09/ng-cdk-coercion/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-coercion/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-coercion"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Using CDK Drag and Drop to move items from one list to another",
+    "appPath": "chapter09/ng-cdk-drag-drop/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-drag-drop/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-drag-drop"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Creating a multi-step from with CDK Stepper API",
+    "appPath": "chapter09/ng-cdk-stepper/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-stepper/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-stepper"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Accessible listbox interactions using CDK Listbox directives",
+    "appPath": "chapter09/ng-cdk-listbox/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-listbox/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-listbox"
+  },
+  {
+    "chapter": "Angular and the Angular CDK",
+    "appTitle": "Working with nested menus using the Angular CDK Menu API",
+    "appPath": "chapter09/ng-cdk-menu/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter09/ng-cdk-menu/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter09/ng-cdk-menu"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Setting up unit tests in Angular with Jest",
+    "appPath": "chapter10/ng-jest-setup/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-jest-setup/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-jest-setup"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Providing global mocks for Jest",
+    "appPath": "chapter10/ng-jest-global-mocks/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-jest-global-mocks/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-jest-global-mocks"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Mocking Angular services using stubs",
+    "appPath": "chapter10/ng-test-services-stubs/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-test-services-stubs/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-test-services-stubs"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Using spies on an injected service in a unit test",
+    "appPath": "chapter10/ng-test-services/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-test-services/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-test-services"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Mocking child components and directives using the ng-mocks package",
+    "appPath": "chapter10/ng-test-ng-mocks/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-test-ng-mocks/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-test-ng-mocks"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Writing even easier tests with Angular CDK component harnesses",
+    "appPath": "chapter10/ng-test-cdk-harness/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-test-cdk-harness/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-test-cdk-harness"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Unit-testing responses from HTTP calls",
+    "appPath": "chapter10/ng-test-http-resp/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-test-http-resp/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-test-http-resp"
+  },
+  {
+    "chapter": "Writing Unit Tests in Angular with Jest",
+    "appTitle": "Unit-testing Angular pipes",
+    "appPath": "chapter10/ng-test-pipes/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter10/ng-test-pipes/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter10/ng-test-pipes"
+  },
+  {
+    "chapter": "E2E tests in Angular with Cypress",
+    "appTitle": "Writing your first Cypress test",
+    "appPath": "chapter11/ng-cypress-starter/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter11/ng-cypress-starter/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/start/apps/chapter11/ng-cypress-starter/final"
+  },
+  {
+    "chapter": "E2E tests in Angular with Cypress",
+    "appTitle": "Validating if a DOM element is visible on the view",
+    "appPath": "chapter11/ng-cy-element-visibility/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter11/ng-cy-element-visibility/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter11/ng-cy-element-visibility"
+  },
+  {
+    "chapter": "E2E tests in Angular with Cypress",
+    "appTitle": "Testing form inputs and submission",
+    "appPath": "chapter11/ng-cy-forms/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter11/ng-cy-forms/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter11/ng-cy-forms"
+  },
+  {
+    "chapter": "E2E tests in Angular with Cypress",
+    "appTitle": "Waiting for XHRs to finish",
+    "appPath": "chapter11/ng-cy-http-requests/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter11/ng-cy-http-requests/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter11/ng-cy-http-requests"
+  },
+  {
+    "chapter": "E2E tests in Angular with Cypress",
+    "appTitle": "Using Cypress bundled packages",
+    "appPath": "chapter11/ng-cy-bun-pack/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter11/ng-cy-bun-pack/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter11/ng-cy-bun-pack"
+  },
+  {
+    "chapter": "E2E tests in Angular with Cypress",
+    "appTitle": "Using Cypress fixtures to provide mock data",
+    "appPath": "chapter11/ng-cy-mock-data/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter11/ng-cy-mock-data/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter11/ng-cy-mock-data"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Using OnPush change detection to prune component subtrees",
+    "appPath": "chapter12/ng-on-push-strategy/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-on-push-strategy/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-on-push-strategy"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Detaching the change detector from components",
+    "appPath": "chapter12/ng-cd-ref/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-cd-ref/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-cd-ref"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Running async events outside Angular with runOutsideAngular",
+    "appPath": "chapter12/ng-run-outside-angular/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-run-outside-angular/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-run-outside-angular"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Using trackBy for lists with *ngFor",
+    "appPath": "chapter12/ng-for-trackby/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-for-trackby/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-for-trackby"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Moving heavy computation to pure pipes",
+    "appPath": "chapter12/ng-pipes-perf/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-pipes-perf/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-pipes-perf"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Using web workers for heavy computation",
+    "appPath": "chapter12/ng-ww-perf/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-ww-perf/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-ww-perf"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Using performance budgets for auditing",
+    "appPath": "chapter12/ng-perf-budgets/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-perf-budgets/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-perf-budgets"
+  },
+  {
+    "chapter": "Performance Optimization in Angular",
+    "appTitle": "Analyzing bundles with webpack-bundle-analyzer",
+    "appPath": "chapter12/ng-perf-wba/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter12/ng-perf-wba/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter12/ng-perf-wba"
+  },
+  {
+    "chapter": "Building PWAs with Angular",
+    "appTitle": "Converting an existing Angular app into a PWA with the Angular CLI",
+    "appPath": "chapter13/ng-pwa-conversion/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter13/ng-pwa-conversion/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter13/ng-pwa-conversion"
+  },
+  {
+    "chapter": "Building PWAs with Angular",
+    "appTitle": "Modifying the theme color for your PWA",
+    "appPath": "chapter13/ng-pwa-theme-color/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter13/ng-pwa-theme-color/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter13/ng-pwa-theme-color"
+  },
+  {
+    "chapter": "Building PWAs with Angular",
+    "appTitle": "Using dark mode in your PWA",
+    "appPath": "chapter13/ng-pwa-dark-mode/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter13/ng-pwa-dark-mode/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter13/ng-pwa-dark-mode"
+  },
+  {
+    "chapter": "Building PWAs with Angular",
+    "appTitle": "Providing a custom installable experience in your PWA",
+    "appPath": "chapter13/ng-pwa-cust-installation/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter13/ng-pwa-cust-installation/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter13/ng-pwa-cust-installation"
+  },
+  {
+    "chapter": "Building PWAs with Angular",
+    "appTitle": "Precaching requests using an Angular service worker",
+    "appPath": "chapter13/ng-pwa-precaching/final/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter13/ng-pwa-precaching/final/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter13/ng-pwa-precaching"
+  },
+  {
+    "chapter": "Building PWAs with Angular",
+    "appTitle": "Creating an app shell for your Angular PWA",
+    "appPath": "chapter13/ng-pwa-app-shell/final/browser/index.html",
+    "demoUrl": "https://packtpublishing.github.io/Angular-Cookbook-2E/chapter13/ng-pwa-app-shell/final/browser/",
+    "githubUrl": "https://github.com/PacktPublishing/Angular-Cookbook-2E/tree/main/final/apps/chapter13/ng-pwa-app-shell/browser"
+  }
+]

@@ -3,6 +3,8 @@ from typing import Dict
 
 from llama_index.core.settings import Settings
 
+from app.embeddings.custom_gemini_embeddings import CustomGeminiEmbedding
+
 
 def init_settings():
     model_provider = os.getenv("MODEL_PROVIDER")
@@ -185,7 +187,8 @@ def init_gemini():
     embed_model_name = f"models/{os.getenv('EMBEDDING_MODEL')}"
 
     Settings.llm = Gemini(model=model_name)
-    Settings.embed_model = GeminiEmbedding(model_name=embed_model_name)
+    # Settings.embed_model = GeminiEmbedding(model_name=embed_model_name)
+    Settings.embed_model = CustomGeminiEmbedding(model_name=embed_model_name)
 
 
 def init_mistral():
@@ -193,4 +196,5 @@ def init_mistral():
     from llama_index.llms.mistralai import MistralAI
 
     Settings.llm = MistralAI(model=os.getenv("MODEL"))
-    Settings.embed_model = MistralAIEmbedding(model_name=os.getenv("EMBEDDING_MODEL"))
+    Settings.embed_model = MistralAIEmbedding(
+        model_name=os.getenv("EMBEDDING_MODEL"))

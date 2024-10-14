@@ -43,6 +43,12 @@ async def chat(
             filters=filters, params=params, event_handlers=[event_handler]
         )
         response = await chat_engine.astream_chat(last_message_content, messages)
+        # Add this logging
+        if hasattr(response, 'source_nodes'):
+            logger.debug(
+                f"Retrieved {len(response.source_nodes)} source nodes")
+            for i, node in enumerate(response.source_nodes):
+                logger.debug(f"Node {i} metadata: {node.metadata}")
         process_response_nodes(response.source_nodes, background_tasks)
 
         return VercelStreamResponse(request, event_handler, response, data)
@@ -86,7 +92,9 @@ def process_response_nodes(
         # Start background tasks to download documents from LlamaCloud if needed
         from app.engine.service import LLamaCloudFileService
 
-        LLamaCloudFileService.download_files_from_nodes(nodes, background_tasks)
+        LLamaCloudFileService.download_files_from_nodes(
+            nodes, background_tasks)
     except ImportError:
-        logger.debug("LlamaCloud is not configured. Skipping post processing of nodes")
+        logger.debug(
+            "LlamaCloud is not configured. Skipping post processing of nodes")
         pass
