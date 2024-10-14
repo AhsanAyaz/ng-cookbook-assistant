@@ -1,10 +1,12 @@
 import logging
+import os
 from typing import List
 
-from fastapi import APIRouter, BackgroundTasks, HTTPException, Request, status
-from llama_index.core.chat_engine.types import NodeWithScore
+from fastapi import APIRouter, BackgroundTasks, HTTPException, Request, status, Depends
+from llama_index.core.schema import NodeWithScore
 from llama_index.core.llms import MessageRole
-
+from slowapi import Limiter
+from slowapi.util import get_remote_address
 from app.api.routers.events import EventCallbackHandler
 from app.api.routers.models import (
     ChatData,
@@ -18,11 +20,15 @@ from app.engine.query_filter import generate_filters
 
 chat_router = r = APIRouter()
 
+limiter = Limiter(key_func=get_remote_address)
+
+
 logger = logging.getLogger("uvicorn")
 
 
 # streaming endpoint - delete if not needed
 @r.post("")
+@limiter.limit("5/minute")
 async def chat(
     request: Request,
     data: ChatData,

@@ -1,43 +1,62 @@
 # flake8: noqa: E402
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import RedirectResponse, JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI
+from app.settings import init_settings
+from app.observability import init_observability
+from app.api.routers import api_router
+import uvicorn
+from fastapi import Request
+import os
+import logging
 from app.config import DATA_DIR
 from dotenv import load_dotenv
 
 load_dotenv()
 
-import logging
-import os
-
-import uvicorn
-from app.api.routers import api_router
-from app.observability import init_observability
-from app.settings import init_settings
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import RedirectResponse
-from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
 init_settings()
 init_observability()
 
-environment = os.getenv("ENVIRONMENT", "dev")  # Default to 'development' if not set
+# Default to 'development' if not set
+environment = os.getenv("ENVIRONMENT", "dev")
 logger = logging.getLogger("uvicorn")
 
+# Define allowed origins
+ALLOWED_ORIGINS = ["https://ng-cookbook.com"]
+
 if environment == "dev":
-    logger.warning("Running in development mode - allowing CORS for all origins")
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=["*"],
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
+    ALLOWED_ORIGINS.extend(["http://localhost:4200", "http://127.0.0.1:4200"])
+    logger.warning(
+        f"Running in development mode - allowing CORS for: {ALLOWED_ORIGINS}")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
+)
+
+# Global OPTIONS handler
+
+
+@app.options("/{full_path:path}")
+async def options_handler(request: Request):
+    return JSONResponse(
+        status_code=200,
+        content={"message": "OK"}
     )
 
-    # Redirect to documentation page when accessing base URL
-    @app.get("/")
-    async def redirect_to_docs():
-        return RedirectResponse(url="/docs")
+# Redirect to documentation page when accessing base URL
+
+
+@app.get("/")
+async def redirect_to_docs():
+    return RedirectResponse(url="/docs")
 
 
 def mount_static_files(directory, path):
