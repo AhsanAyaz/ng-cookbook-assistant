@@ -68,17 +68,17 @@ class VercelStreamResponse(StreamingResponse):
             event_handler.is_done = True
 
             # Yield the source nodes
-            yield cls.convert_data(
-                {
-                    "type": "sources",
-                    "data": {
-                        "nodes": [
-                            SourceNodes.from_source_node(node).model_dump()
-                            for node in response.source_nodes
-                        ]
-                    },
-                }
-            )
+            # yield cls.convert_data(
+            #     {
+            #         "type": "sources",
+            #         "data": {
+            #             "nodes": [
+            #                 SourceNodes.from_source_node(node).model_dump()
+            #                 for node in response.source_nodes
+            #             ]
+            #         },
+            #     }
+            # )
 
         # Yield the events from the event handler
         async def _event_generator():
