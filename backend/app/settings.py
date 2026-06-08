@@ -188,7 +188,7 @@ def init_gemini():
 
     Settings.llm = Gemini(model=model_name)
     # Settings.embed_model = GeminiEmbedding(model_name=embed_model_name)
-    Settings.embed_model = CustomGeminiEmbedding(model_name=embed_model_name)
+    Settings.embed_model = CustomGeminiEmbedding(model_name=embed_model_name, embed_batch_size=40)
 
 
 def init_mistral():
