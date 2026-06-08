@@ -29,7 +29,7 @@ logger = logging.getLogger("uvicorn")
 ALLOWED_ORIGINS = ["https://ng-cookbook.com"]
 
 if environment == "dev":
-    ALLOWED_ORIGINS.extend(["http://localhost:4200", "http://127.0.0.1:4200"])
+    ALLOWED_ORIGINS.extend(["http://localhost:4200", "http://127.0.0.1:4200", "http://localhost:3000", "http://127.0.0.1:3000"])
     logger.warning(
         f"Running in development mode - allowing CORS for: {ALLOWED_ORIGINS}")
 
